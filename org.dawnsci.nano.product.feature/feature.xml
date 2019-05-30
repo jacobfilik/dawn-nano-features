@@ -21,14 +21,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.rcp"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.e4.rcp"
-         version="0.0.0"/>
-
-   <includes
          id="org.dawnsci.logging.feature"
          version="0.0.0"/>
 
@@ -41,31 +33,7 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.emf.ecore"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.emf.common"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.platform"
-         version="0.0.0"/>
-
-   <includes
-         id="org.dawnsci.mapping.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.ecf.core.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.ecf.filetransfer.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.dawnsci.jzy3d.feature"
+         id="org.dawnsci.workbench.feature"
          version="0.0.0"/>
 
    <plugin
@@ -557,13 +525,6 @@
 
    <plugin
          id="org.eclipse.ui.workbench"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.dawnsci.jzy3d"
          download-size="0"
          install-size="0"
          version="0.0.0"
