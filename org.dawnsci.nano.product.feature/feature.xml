@@ -36,6 +36,10 @@
          id="org.dawnsci.workbench.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.dawnsci.hdf5.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.eclipse.scanning.api"
          download-size="0"
@@ -59,26 +63,6 @@
 
    <plugin
          id="org.eclipse.january"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.dawnsci.nexus"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="hdf.hdf5lib"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.dawnsci.hdf5"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -281,13 +265,6 @@
 
    <plugin
          id="org.dawnsci.common.widgets"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.emf.common.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -525,6 +502,13 @@
 
    <plugin
          id="org.eclipse.ui.workbench"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.common.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
