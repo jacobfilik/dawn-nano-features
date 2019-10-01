@@ -29,15 +29,15 @@
          version="0.0.0"/>
 
    <includes
-         id="org.dawnsci.processing.feature"
-         version="0.0.0"/>
-
-   <includes
          id="org.dawnsci.workbench.feature"
          version="0.0.0"/>
 
    <includes
          id="org.dawnsci.hdf5.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.dawnsci.processing.feature"
          version="0.0.0"/>
 
    <plugin
@@ -103,13 +103,6 @@
 
    <plugin
          id="log4j.over.slf4j"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.beanutils"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -271,28 +264,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.collections"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.dawnsci.conversion.ui.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.georegression"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.dawnsci.conversion"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -509,6 +481,41 @@
 
    <plugin
          id="org.eclipse.emf.common.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="jaxb-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.beanutils"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dawnsci.conversion.ui.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dawnsci.conversion"
          download-size="0"
          install-size="0"
          version="0.0.0"
